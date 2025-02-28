@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OCTANET_FEBRUARY/static/css/main.5dfc8f84.css",
+    "main.js": "/OCTANET_FEBRUARY/static/js/main.3651101f.js",
+    "static/js/453.a91e9cec.chunk.js": "/OCTANET_FEBRUARY/static/js/453.a91e9cec.chunk.js",
+    "index.html": "/OCTANET_FEBRUARY/index.html",
+    "main.5dfc8f84.css.map": "/OCTANET_FEBRUARY/static/css/main.5dfc8f84.css.map",
+    "main.3651101f.js.map": "/OCTANET_FEBRUARY/static/js/main.3651101f.js.map",
+    "453.a91e9cec.chunk.js.map": "/OCTANET_FEBRUARY/static/js/453.a91e9cec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dfc8f84.css",
+    "static/js/main.3651101f.js"
+  ]
+}
