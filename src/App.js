@@ -6,7 +6,13 @@ import { Card, CardContent } from "./components/ui/Card";
 
 export default function LandingPage() {
   return (
-    <div className="hero is-fullheight" style={{ backgroundImage: "url('/images/digital-background.jpg')", backgroundSize: "cover", backgroundPosition: "center", color: "white", animation: "fadeIn 2s" }}>
+    <div className="hero is-fullheight" style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/digital-background.jpg)`,
+      backgroundSize: "cover", 
+      backgroundPosition: "center", 
+      color: "white", 
+      animation: "fadeIn 2s" 
+    }}>
       <div className="hero-body has-text-centered">
         <div className="container">
           {/* Hero Section */}
@@ -33,7 +39,7 @@ export default function LandingPage() {
               <Card>
                 <CardContent>
                   <figure className="image is-4by3">
-                    <img src="/images/blockchain.jpg" alt="Decentralized Apps" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
+                    <img src={`${process.env.PUBLIC_URL}/images/blockchain.jpg`} alt="Decentralized Apps" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
                   </figure>
                   <h3 className="title is-4 has-text-warning">Decentralized Apps</h3>
                   <p>Build secure, scalable dApps with blockchain technology.</p>
@@ -44,7 +50,7 @@ export default function LandingPage() {
               <Card>
                 <CardContent>
                   <figure className="image is-4by3">
-                    <img src="/images/smart-contracts.jpg" alt="Smart Contracts" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
+                    <img src={`${process.env.PUBLIC_URL}/images/smart-contracts.jpg`} alt="Smart Contracts" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
                   </figure>
                   <h3 className="title is-4 has-text-warning">Smart Contracts</h3>
                   <p>Automate business processes with tamper-proof smart contracts.</p>
@@ -55,7 +61,7 @@ export default function LandingPage() {
               <Card>
                 <CardContent>
                   <figure className="image is-4by3">
-                    <img src="/images/crypto-payments.jpg" alt="Crypto Payments" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
+                    <img src={`${process.env.PUBLIC_URL}/images/crypto-payments.jpg`} alt="Crypto Payments" style={{ width: "100%", height: "250px", objectFit: "cover" }} />
                   </figure>
                   <h3 className="title is-4 has-text-warning">Crypto Payments</h3>
                   <p>Enable seamless transactions using digital currencies.</p>
@@ -68,7 +74,7 @@ export default function LandingPage() {
           <div className="section mt-6 has-text-centered">
             <h2 className="title is-3 has-text-warning">Roadmap to the Future</h2>
             <p>Explore our milestones in the journey of Web3 development.</p>
-            <img src="/images/roadmap.webp" alt="Roadmap" style={{ width: "80%", margin: "auto" }} />
+            <img src={`${process.env.PUBLIC_URL}/images/roadmap.webp`} alt="Roadmap" style={{ width: "80%", margin: "auto" }} />
           </div>
 
           {/* Navigation & Footer Section */}
