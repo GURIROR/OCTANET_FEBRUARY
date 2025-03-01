@@ -74,7 +74,7 @@ export default function LandingPage() {
           <div className="section mt-6 has-text-centered">
             <h2 className="title is-3 has-text-warning">Roadmap to the Future</h2>
             <p>Explore our milestones in the journey of Web3 development.</p>
-            <img src={`${process.env.PUBLIC_URL}/images/roadmap.webp`} alt="Roadmap" style={{ width: "80%", margin: "auto" }} />
+            <img src={`${process.env.PUBLIC_URL}/images/roadmap.png`} alt="Roadmap" style={{ width: "80%", margin: "auto" }} />
           </div>
 
           {/* Navigation & Footer Section */}
